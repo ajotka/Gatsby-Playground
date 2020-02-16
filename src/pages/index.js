@@ -1,13 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import SEO from "../components/seo"
-import Navigation from "../components/Navigation/navigation";
+import Button from "../components/Button/Button";
 
 const IndexPage = () => (
   <>
     <SEO title="Home" />
-      <h1>Hello Hatta</h1>
+      <h1>Your new space</h1>
+      <p>While artists work from real to the abstract, architects must work from the abstract to the real.</p>
+      <Button>Estimate project</Button>
   </>
 )
 
