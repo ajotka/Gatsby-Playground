@@ -4,6 +4,10 @@ import { Link } from "gatsby";
 
 
 const NavigationWrapper = styled.div`
+    margin: 20px 30px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
     display: flex;
     align-items: center;
     justify-content: flex-start;

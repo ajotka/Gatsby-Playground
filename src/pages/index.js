@@ -7,8 +7,7 @@ import Navigation from "../components/Navigation/navigation";
 const IndexPage = () => (
   <>
     <SEO title="Home" />
-    <Navigation/>
-    <Link to="/page-2/">Go to page 2</Link>
+      <h1>Hello Hatta</h1>
   </>
 )
 
